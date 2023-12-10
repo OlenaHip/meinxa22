@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-image: url("https://cs14.pikabu.ru/post_img/big/2021/07/17/0/1626472718165648120.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-001 {
+  margin: 10px 5px;
+
+  border: 5px dotted white;
+  border-radius: 12px;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.flex-parent1 {
+  flex-direction: row;
+  display: flex;
+  cursor: pointer;
+}
+
+.flex-child33 {
+  border: 5px dotted white;
+  border-radius: 12px;
+  width: 200px;
+}
+
+.zoomable-image {
+  transition: transform 0.5s;
+}
+
+.zoomable-image:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(11, 239, 38);
+  font-size: 70px;
+}
+
+.section-01{
+    flex-direction: row; 
+    display: flex;
+    
+}
+
+.flex-parent {
+  border: 1px solid rgb(1, 51, 68);
+  min-height: 800px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.flex-child {
+  border: 5px dotted white;
+  border-radius: 10px;
+  color: rgb(0, 213, 255);
+  text-align: center;
+  font-size: 30px;
+  margin: 40px 20px;
+  min-height: 550px;
+  width: 300px;
+  flex-direction: row;
+ 
+}
+
+.zoomable-image {
+  transition: transform 0.5s;
+}
+
+.zoomable-image:hover {
+  transform: scale(2, 2);
+}
+
+.flex-child p {
+  color: rgb(236, 242, 245);
+  font-size: 20px;
+  justify-content: flex-end;
+  background-color: black;
+}
+
+.section-1 {
+  text-align: center;
+}
+
+.flex-child1 {
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px 20px;
+  min-height: 150px;
+  align-self: flex-end;
+}
+
+.main-nav {
+  padding: 10px;
+}
+
+.main-nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: wavy;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 25px;
+  background-color: black;
+}
+
+.main-nav a:hover {
+  color: #13b536;
+  cursor: pointer;
+}
+
+.section-2 {
+  text-align: center;
+}
+
+.flex-child2 p {
+  border: 5px dotted white;
+  color: rgb(236, 242, 245);
+  font-size: 20px;
+  justify-content: flex-end;
+  background-color: black;
+}
+
+.flex-child2 {
+  color: rgb(80, 20, 220);
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  background-color: black;
+  cursor: pointer;
+}
+
+.section3 {
+  text-align: left;
+  color: white;
+}
